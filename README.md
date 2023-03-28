@@ -5,7 +5,12 @@
 
 # Overview
 
-Welcome to Click Me! This is a project that utilizes a fine-tuned Mobilenet Model and Pytesseract to recognize URL overlays in LinkedIn Courses and extract relevant metadata such as timestamp, the overlay itself, and the bounding box of the overlay (the coordinates on the screen where the overlay appears). The primary objective of this project is to automate the process of gathering essential metadata to create clickable UI elements in courses. In addition, the extracted data can be used to check the status of URLs provided in LinkedIn courses and generate PDFs containing the URLs from a given course.
+Welcome to Click Me! This is a project that utilizes a fine-tuned Mobilenet Model and Pytesseract to recognize URL overlays in LinkedIn Courses and extract relevant metadata such as timestamp, the overlay itself, and the bounding box of the overlay (the coordinates on the screen where the overlay appears). The primary objective of this project is to automate the process of gathering essential metadata to create clickable UI elements in courses. In addition, the extracted data can be used to check the status of URLs provided in LinkedIn courses and generate PDFs containing the URLs from a given course. Below is a demonstration of extracting data from an input video and outputting it to JSON:
+
+<br/><br/>
+
+
+<video src="https://user-images.githubusercontent.com/90370987/228164081-2591a1e6-b7c3-4d61-9aaf-c7897e6e228d.mp4">Demo Video 1: Checking link status</video>
 
 # Dependencies
 
@@ -33,7 +38,7 @@ There are currently three potential applications of the extracted data. The prim
 Another application of the program is to maintain evergreen content. After publishing, the program can be executed to verify which links are currently functional and which ones return a 404 error, allowing for the timely maintenance of older courses with non-functional URLs. The following is a demonstration of how the program checks the links in the JSON file, including an example of how it responds when it detects a broken link.
 <br/><br/>
 
-<video src="https://user-images.githubusercontent.com/90370987/228154234-a2c54630-fa4a-4248-a99a-c70dab1adfe8.mp4" width=100>Demo Video 2: Checking link status</video>
+<video src="https://user-images.githubusercontent.com/90370987/228154234-a2c54630-fa4a-4248-a99a-c70dab1adfe8.mp4">Demo Video 2: Checking link status</video>
 
 <br/>
 
