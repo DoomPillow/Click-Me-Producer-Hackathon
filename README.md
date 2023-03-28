@@ -20,22 +20,27 @@ Here are the necessary packages to run the provided notebook:
 - Beautiful Soup - `pip install beautifulsoup4`
 
 
-# Examples
+# Potential Applications
 
-Below is a visual representation of the URL recognition, generated using data from the json file:<br/><br/>
+There are currently three potential applications of the extracted data. The primary one is to use it to create clickable user interface elements. This provides a convenient way for learners to access links, and also makes the content more accessible to visually impaired learners by providing them with URLs that may not be available in closed captioning. <br/><br/>
 <p align="center">
   
   <img src="https://user-images.githubusercontent.com/90370987/227855933-194c98ba-ec43-4362-9054-5ae4d1bb4c9e.jpg" width=700 height=400>
 </p>
 
+<br/><br/>  
+Another application of the program is to maintain evergreen content. After publishing, the program can be executed to verify which links are currently functional and which ones return a 404 error, allowing for the timely maintenance of older courses with non-functional URLs. The following is a demonstration of how the program checks the links in the JSON file, including an example of how it responds when it detects a broken link.
+<br/><br/>
+
+<video src="https://user-images.githubusercontent.com/90370987/228154234-a2c54630-fa4a-4248-a99a-c70dab1adfe8.mp4" width=100>
 
 <br/><br/>  
-Below is an example pdf generated using data from the json file. The title and header are both customizable parameters.
-It's worth noting that as of this current version, generating pdfs course-by-course instead putting all urls onto one pdf
-is not yet supported.
+The third and final current use case is the automatic generation of PDFs containing links that can be distributed in exercise files. An example PDF, which utilizes data from the JSON file, is shown below. Both the title and header of the PDF are customizable parameters. However, it's important to note that generating PDFs course-by-course instead of putting all URLs onto one PDF is not yet supported in this current version.
 <br/><br/>
 <p align="center">
 
 
   <img src="https://user-images.githubusercontent.com/90370987/227841527-66129135-acb4-46e3-b73a-f9dcfb8672ba.png">
 </p>
+
+
