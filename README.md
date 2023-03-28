@@ -1,6 +1,6 @@
-# URL Grabber
+
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/90370987/227833445-3f30c4b8-1c90-4ac7-a1ae-113352d2156d.png" width=560.7 height=151.9>
+  <img src="https://user-images.githubusercontent.com/90370987/227833445-3f30c4b8-1c90-4ac7-a1ae-113352d2156d.png" width=640.7 height=171.9>
 </p>
 
 # Overview
