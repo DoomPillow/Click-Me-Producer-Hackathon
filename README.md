@@ -21,7 +21,7 @@ Here are the necessary packages to run the provided notebook:
 
 
 # Potential Applications
-
+## Clickable UI Elements
 There are currently three potential applications of the extracted data. The primary one is to use it to create clickable user interface elements. This provides a convenient way for learners to access links, and also makes the content more accessible to visually impaired learners by providing them with URLs that may not be available in closed captioning. <br/><br/>
 <p align="center">
   
@@ -29,12 +29,15 @@ There are currently three potential applications of the extracted data. The prim
 </p>
 
 <br/><br/>  
+## Evergreen Content
 Another application of the program is to maintain evergreen content. After publishing, the program can be executed to verify which links are currently functional and which ones return a 404 error, allowing for the timely maintenance of older courses with non-functional URLs. The following is a demonstration of how the program checks the links in the JSON file, including an example of how it responds when it detects a broken link.
 <br/><br/>
 
-<video src="https://user-images.githubusercontent.com/90370987/228154234-a2c54630-fa4a-4248-a99a-c70dab1adfe8.mp4" width=100>
+<video src="https://user-images.githubusercontent.com/90370987/228154234-a2c54630-fa4a-4248-a99a-c70dab1adfe8.mp4" width=100>Demo Video 2: Checking link status</video>
 
-<br/><br/>  
+<br/>
+
+## Automatic PDF Generation
 The third and final current use case is the automatic generation of PDFs containing links that can be distributed in exercise files. An example PDF, which utilizes data from the JSON file, is shown below. Both the title and header of the PDF are customizable parameters. However, it's important to note that generating PDFs course-by-course instead of putting all URLs onto one PDF is not yet supported in this current version.
 <br/><br/>
 <p align="center">
