@@ -10,7 +10,7 @@ Welcome to Click Me! This is a project that utilizes a fine-tuned Mobilenet Mode
 <br/><br/>
 
 
-<video src="https://user-images.githubusercontent.com/90370987/228164081-2591a1e6-b7c3-4d61-9aaf-c7897e6e228d.mp4">Demo Video 1: Checking link status</video>
+<video src="https://user-images.githubusercontent.com/90370987/228164081-2591a1e6-b7c3-4d61-9aaf-c7897e6e228d.mp4">Demo Video 1: Generating JSON status</video>
 
 # Dependencies
 
@@ -46,9 +46,8 @@ Another application of the program is to maintain evergreen content. After publi
 The third and final current use case is the automatic generation of PDFs containing links that can be distributed in exercise files. An example PDF, which utilizes data from the JSON file, is shown below. Both the title and header of the PDF are customizable parameters. However, it's important to note that generating PDFs course-by-course instead of putting all URLs onto one PDF is not yet supported in this current version.
 <br/><br/>
 <p align="center">
-
-
-  <img src="https://user-images.githubusercontent.com/90370987/227841527-66129135-acb4-46e3-b73a-f9dcfb8672ba.png">
+  
+  <video src="https://user-images.githubusercontent.com/90370987/228393482-7f681a53-4c60-417e-9825-7b7fddbb5252.mp4">Demo Video 3: Generating PDF</video>
 </p>
 
 
